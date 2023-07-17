@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "qol-mod",
+  "version": "${version}",
+  "name": "QoL Addon",
+  "description": "another generic meteor addon",
+  "authors": [
+    "Tax Evasion"
+  ],
+  "contact": {
+    "repo": "https://github.com/TaxEvasiqn/qol-addon"
+  },
+  "icon": "assets/balls/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "uwu.taxevasion.qolmod.NotRat"
+    ]
+  },
+  "custom": {
+    "meteor-client:color": "255,0,255"
+  },
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=${mc_version}",
+    "meteor-client": "*"
+  }
+}
