@@ -21,11 +21,9 @@ public class NotRat extends MeteorAddon {
 
     @Override
     public void onInitialize() {
-        Modules.get().add(new Airstrike());
         Modules.get().add(new AnyPlacer());
         Modules.get().add(new AutoAnchor());
         Modules.get().add(new AutoExecute());
-        Modules.get().add(new Boom());
         Modules.get().add(new ChunkCrash());
         Modules.get().add(new ClickNuke());
         Modules.get().add(new GhostBlockFly());
@@ -34,7 +32,6 @@ public class NotRat extends MeteorAddon {
         Modules.get().add(new ShulkerDupe());
         Modules.get().add(new Totem());
         Modules.get().add(new VeloFly());
-        Modules.get().add(new Voider());
 
         Commands.add(new BeehiveCommand());
         Commands.add(new ClearCommand());
